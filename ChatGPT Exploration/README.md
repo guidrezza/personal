@@ -4,7 +4,7 @@
 
     Q: What is ChatGPT, and can it generate code?
     
-    ---  
+ ---  
     
     A: ChatGPT is a variant of the GPT (Generative Pre-training Transformer) language model that has  
     been specifically designed for chatbot applications. It was developed by OpenAI and released in 2020.
