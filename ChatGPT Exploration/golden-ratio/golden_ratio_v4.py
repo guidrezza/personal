@@ -128,7 +128,8 @@ turtle.exitonclick()
   Failed experiment at the end, but it was fun seeing the AI interpretation of the Golden Ratio.
 
   It appears ChatGPT does not completely recognize patterns and diagrams that naturally appeal
-  to our human minds. What the AI wrote is not wrong, it's just not visually appealing or
-  particularly useful for visualization purposes. Nevertheless, it was a fun experiment to learn
-  more about OpenAI's ChatGPT.
+  to our human minds. Technically, what the AI wrote is not wrong mathematically, but it is not 
+  visually appealing or particularly useful as a visualization of thegolden ratio.
+  
+  Nevertheless, it was a fun experiment to learn more about OpenAI's ChatGPT.
 '''
