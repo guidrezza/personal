@@ -4,4 +4,5 @@
 
 #### It is in the format of a dialogue between me (the "Q's") and ChatGPT (the "A's"). I also write up some comments on the direction I wanted to take the next code iteration to.
 
-#### Simply run ~py golden_ratio_v2.py in the console to execute. Might need to install some basic Python libraries.
+#### Simply run ~py golden_ratio_v2.py in the console to execute.  
+#### Needs Python installed, and some basic libraries.
