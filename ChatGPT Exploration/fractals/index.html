@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>Fractal Pattern</title>
+  </head>
+  <body>
+    <canvas id="canvas" width="500" height="500"></canvas>
+    <script>
+      const canvas = document.getElementById("canvas");
+      const ctx = canvas.getContext("2d");
+
+      // Set the starting point and angle for the first line
+      let x1 = 250;
+      let y1 = 250;
+      let angle = 0;
+
+      // Set the length of the first line
+      let length = 200;
+
+      // Set the depth of the fractal pattern (how many times it will branch)
+      let depth = 5;
+
+      // Recursive function to draw the fractal pattern
+      function drawFractal(x1, y1, angle, length, depth) {
+        // Calculate the end point of the line
+        const x2 = x1 + length * Math.cos(angle * Math.PI / 180);
+        const y2 = y1 + length * Math.sin(angle * Math.PI / 180);
+
+        // Draw the line
+        ctx.beginPath();
+        ctx.moveTo(x1, y1);
+        ctx.lineTo(x2, y2);
+        ctx.stroke();
+
+        // If the depth is greater than 0, draw two more lines branching off the current line
+        if (depth > 0) {
+          drawFractal(x2, y2, angle + 20, length * 0.8, depth - 1);
+          drawFractal(x2, y2, angle - 20, length * 0.8, depth - 1);
+        }
+      }
+
+      // Call the recursive function to start drawing the fractal pattern
+      drawFractal(x1, y1, angle, length, depth);
+    </script>
+  </body>
+</html>
