@@ -2,6 +2,8 @@
 
 #### According to ChatGPT itself:
 
+---
+
     Q: What is ChatGPT, and can it generate code?
     
  ---  
